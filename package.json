@@ -1,0 +1,27 @@
+{
+	"private": true,
+	"name": "bvg-hafas-rpc-server",
+	"description": "Using hafas-client-rpc, expose bvg-hafas as a WebSocket server.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/bvg-hafas-rpc-server",
+	"repository": "derhuerst/bvg-hafas-rpc-server",
+	"bugs": "https://github.com/derhuerst/bvg-hafas-rpc-server/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+		"hafas-client-rpc": "^2.2.2",
+		"bvg-hafas": "^1.0.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
